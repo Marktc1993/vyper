@@ -1,5 +1,5 @@
 ###################
-Viper by Example
+Vyper by Example
 ###################
 
 .. index:: auction;open, open auction
@@ -10,10 +10,12 @@ Simple Open Auction
 
 .. _simple_auction:
 
-As an introductory example of a smart contract written in Viper, we will begin
+As an introductory example of a smart contract written in Vyper, we will begin
 with a simple open auction contract. As we dive into the code,
-it is important to remember that all Viper syntax is valid Python3 syntax,
-however not all Python3 functionality is available in Viper.
+it is important to remember that all Vyper syntax is valid Python3 syntax,
+however not all Python3 functionality is available in Vyper 
+
+(this example uses the public package with Python3).
 
 In this contract, we will be looking at a simple open auction contract where
 participants can submit bids during a limited time period. When the auction
@@ -111,9 +113,9 @@ and sending the highest bid amount to the beneficiary.
 
 And there you have it - an open auction contract. Of course, this is a
 simplified example with barebones functionality and can be improved.
-Hopefully, this has provided some insight to the possibilities of Viper.
+Hopefully, this has provided some insight to the possibilities of Vyper.
 As we move on to exploring more complex examples, we will encounter more
-design patterns and features of the Viper language.
+design patterns and features of the Vyper language.
 
 
 And of course, no smart contract tutorial is complete without a note on
